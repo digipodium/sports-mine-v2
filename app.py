@@ -378,7 +378,7 @@ def load_data9():
 
 @app.route('/')
 def index():
-    return render_template('landing.html')
+    return render_template('index.html')
 
 @app.route('/graph/1')
 def graph_1():
