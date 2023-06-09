@@ -198,7 +198,7 @@ def load_odi():
     return odi
 
 def load_data2():
-    t20 = pd.read_csv('t20.csv')
+    t20 = pd.read_csv(r'C:\Users\LENOVO\Documents\sports\processed\t20.csv')
     #delete unnamed: 0 column
     t20 = t20.drop(['Unnamed: 0', 'Unnamed: 15'], axis=1)
     #remove ( from column player and split into region column)
@@ -225,7 +225,7 @@ def load_data2():
 
 def load_data3():
    
-   test = pd.read_csv('test.csv')
+   test = pd.read_csv(r'C:\Users\LENOVO\Documents\sports\processed\test.csv')
    #delete unnamed: 0 column
    test = test.drop(['Unnamed: 0', 'Unnamed: 11'], axis=1)
    #split span column into start and end year
@@ -245,7 +245,7 @@ def load_data3():
    
 
 def load_data4():
-    bowling_odi = pd.read_csv('bowling_odi.csv')
+    bowling_odi = pd.read_csv(r'C:\Users\LENOVO\Documents\sports\processed\Bowling_ODI.csv')
     #delete unnamed: 0 column
     bowling_odi = bowling_odi.drop(['Unnamed: 0', 'Unnamed: 13'], axis=1)
     #remove ( from column player and split into region column)
@@ -271,7 +271,7 @@ def load_data4():
     return bowling_odi
 
 def load_data5():
-    bowling_t20 = pd.read_csv('bowling_t20.csv')
+    bowling_t20 = pd.read_csv(r'C:\Users\LENOVO\Documents\sports\processed\Bowling_t20.csv')
     #delete unnamed: 0 column
     bowling_t20 = bowling_t20.drop(['Unnamed: 0', 'Unnamed: 14'], axis=1)
     #remove ( from column player and split into region column)
@@ -296,7 +296,7 @@ def load_data5():
     return bowling_t20
 
 def load_data6():
-    bowling_test = pd.read_csv('bowling_test.csv')
+    bowling_test = pd.read_csv(r'C:\Users\LENOVO\Documents\sports\processed\Bowling_test.csv')
     #delete unnamed: 0 column
     bowling_test = bowling_test.drop(['Unnamed: 0', 'Unnamed: 14'], axis=1)
     #split span column into start and end year
@@ -311,7 +311,7 @@ def load_data6():
     return bowling_test
 
 def load_data7():
-    fielding_odi = pd.read_csv('fielding_odi.csv')
+    fielding_odi = pd.read_csv(r'C:\Users\LENOVO\Documents\sports\processed\Fielding_ODI.csv')
     #delete unnamed: 0 column
     fielding_odi = fielding_odi.drop(['Unnamed: 0', 'Unnamed: 11'], axis=1)
     #remove ( from column player and split into region column)
@@ -334,7 +334,7 @@ def load_data7():
     return fielding_odi
 
 def load_data8():
-    fielding_t20 = pd.read_csv('fielding_t20.csv')
+    fielding_t20 = pd.read_csv(r'C:\Users\LENOVO\Documents\sports\processed\Fielding_t20.csv')
     #delete unnamed: 0 column
     fielding_t20 = fielding_t20.drop(['Unnamed: 0', 'Unnamed: 11'], axis=1)
     #remove ( from column player and split into region column)
@@ -359,7 +359,7 @@ def load_data8():
     return fielding_t20
 
 def load_data9():
-    fielding_test = pd.read_csv('fielding_test.csv')
+    fielding_test = pd.read_csv(r'C:\Users\LENOVO\Documents\sports\processed\Fielding_test.csv')
     #delete unnamed: 0 column
     fielding_test = fielding_test.drop(['Unnamed: 0', 'Unnamed: 11'], axis=1)
     #split span column into start and end year
